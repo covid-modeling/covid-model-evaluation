@@ -74,7 +74,7 @@ def get_verbose_state_name(name):
 if __name__ == '__main__':
     all_data = ld.load_data()
     states = ['NY', 'NJ', 'MI', 'CA', 'MA', 'IL']
-    for state in states
+    for state in states:
         state_verbose = get_verbose_state_name(state)
         calibration_parameter_file = state_verbose + "/500/calibration_0/calibrated_parameters.json"
 
